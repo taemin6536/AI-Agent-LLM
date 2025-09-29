@@ -56,7 +56,7 @@ pip install openai python-dotenv streamlit pymupdf
 4. 환경 변수 설정:
 `.env` 파일을 생성하고 OpenAI API 키를 설정하세요:
 ```
-OPEN_API_KEY=your_openai_api_key_here
+OPENAI_API_KEY=your_openai_api_key_here
 ```
 
 ## 📚 예제 설명

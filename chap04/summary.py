@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-api_key = os.getenv('OPEN_API_KEY')
+api_key = os.getenv('OPENAI_API_KEY')
 
 def summarize_txt(file_path: str):
     client = OpenAI(api_key=api_key)

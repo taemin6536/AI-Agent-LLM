@@ -4,7 +4,7 @@ import pymupdf
 import os
 
 load_dotenv()
-api_key = os.getenv('OPEN_API_KEY')
+api_key = os.getenv('OPENAI_API_KEY')
 
 def pdf_to_text(pdf_file_path: str):
     doc = pymupdf.open(pdf_file_path)
