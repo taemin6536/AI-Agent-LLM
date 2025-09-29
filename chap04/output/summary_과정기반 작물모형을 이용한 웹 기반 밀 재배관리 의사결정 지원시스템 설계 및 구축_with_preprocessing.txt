@@ -1,0 +1,27 @@
+# 제목
+
+과정기반 작물모형을 이용한 웹 기반 밀 재배관리 의사결정 지원시스템 설계 및 구축
+
+## 저자의 문제 인식 및 주장 (15문장 이내)
+
+- 우리나라의 밀 자급률은 1%대에 머무르는 등 안정적인 생산기반 확충이 시급하다.  
+- 쌀, 밀 등 양곡에 대한 1인당 소비량은 증가하고 있으나, 국내 생산능력은 이를 따라가지 못하고 있다.  
+- 노지재배 특성상 기상환경, 병해충, 토양조건 등에 의해 생산량 변동이 크고, 재배환경의 제어가 제한적이다.  
+- 소규모 및 노지농가의 노동력은 한정적이며, 재배 의사결정에서 체계화된 정보가 부족하다.  
+- 이러한 상황에서 재배 관리의 과학적 의사결정을 돕는 디지털농업의 필요성이 커지고 있다.  
+- 과정기반 작물모형은 환경요인과 생리적 메커니즘을 바탕으로 시계열로 생육을 모의해 관리 전략을 평가할 수 있다.  
+- APSIM은 오픈소스 모듈식 프레임워크로 다양한 기후, 토양, 재배방식을 반영한 시나리오 분석에 적합하다.  
+- 그러나 노지 작물을 대상으로 한 실시간 의사결정 지원시스템은 아직 국내에 충분히 구축되지 않았다.  
+- 본 연구는 밀 재배 관리를 위한 웹 기반 의사결정 지원시스템을 설계·구축하는 것을 목표로 한다.  
+- 시스템은 매일 기상환경 정보를 수집하고 토양수분 예측을 수행한 뒤, APSIM을 통해 현재 상태의 수확량을 추정한다.  
+- 또한 과거 40년간의 기상을 활용한 시나리오 분석으로 미래 수확량의 상한·하한을 제시한다.  
+- 이를 통해 농가가 관개와 비료를 선제적으로 조절하는 등 생산성과 품질을 높일 수 있도록 지원한다.  
+- 궁극적으로 이 파일럿 시스템을 다른 지역으로 확장하고, 질소 등 추가 인자를 반영해 모형의 예측력을 고도화할 수 있다고 본다.
+
+## 저자 소개
+
+- 솔희 김(Solhee Kim) — Assistant Research Professor, Department of Smart Farm, Jeonbuk National University.  
+- 승원 석(Seungwon Seok) — Undergraduate, Department of Smart Farm, Jeonbuk National University.  
+- 청리광(Liguang Cheng) — Ph.D. Student, Department of Rural Construction Engineering, Jeonbuk National University.  
+- 태일 장(Taeil Jang) — Professor, Department of Rural Construction Engineering, Institute of Agricultural Science & Technology, Jeonbuk National University.  
+- 태곤 김(Taegon Kim) — Assistant Professor, Department of Smart Farm, Jeonbuk National University. (Corresponding author)
